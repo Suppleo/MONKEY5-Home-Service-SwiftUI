@@ -1,8 +1,18 @@
-//
-//  ProfileView.swift
-//  Home Service Management System
-//
-//  Created by umtlab03im09 on 13/3/25.
-//
+import SwiftUI
 
-import Foundation
+struct ProfileView: View {
+    var body: some View {
+        VStack {
+            Image(systemName: "person.crop.circle.fill")
+                .resizable()
+                .frame(width: 100, height: 100)
+                .padding()
+
+            Text("John Doe")
+                .font(.title)
+                .fontWeight(.bold)
+
+            Spacer()
+        }
+    }
+}

@@ -1,8 +1,15 @@
-//
-//  BookingsView.swift
-//  Home Service Management System
-//
-//  Created by umtlab03im09 on 13/3/25.
-//
+import SwiftUI
 
-import Foundation
+struct BookingsView: View {
+    var body: some View {
+        VStack {
+            Text("Your Bookings")
+                .font(.title)
+                .fontWeight(.bold)
+                .padding()
+
+            Text("No bookings yet!")
+                .foregroundColor(.gray)
+        }
+    }
+}
